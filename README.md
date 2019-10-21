@@ -24,7 +24,7 @@ This project I will work on one type of chinese fantasy novel such as swordsman 
 - The output have readable sentences, and it also have a lot of setting and scenario such as specific talking to show the narrative style. I think that was fit my goal to show a different vision for chinese fiction.
 - Epoch number is 20.
 - Sequence legth is 200.
-- Tempreture is 0.3.
+- Temperature is 0.3.
 - Number of characters to generate is 10000.
 
 ## Technical Notes
