@@ -28,8 +28,8 @@ This project I will work on one type of chinese fantasy novel such as swordsman 
 
 ## Reference
 
-References to any papers, techniques, repositories you used:
+
 - Papers
-  - [This is a paper](this_is_the_link.pdf)
-- Repositories
-- Blog posts
+  - the fundamental concepts underlying RNNs : https://www.oreilly.com/library/view/neural-networks-and/9781492037354/ch04.html
+  - Variable importance in RNN or LSTM: https://stats.stackexchange.com/questions/191855/variable-importance-in-rnn-or-lstm
+
