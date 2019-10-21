@@ -5,6 +5,7 @@ Zizhen, ziw142@ucsd.edu
 ## Abstract
 
 This project I will work on one type of chinese fantasy novel such as swordsman stories. A lot of American people like Asian novel or fiction because these novels are different from American novels. My learning data is from a website which some volunteers transform the novel to English version. I want our module could learn some specific seeting or scenario and generate some chinese fantsy novel. My tranning data is a book called stellar-transformations which is very popular chinese fantasy novel in America. I plan to use RNN model to generate the text. My goal is the generating text would keep the same interesting narrative style.
+![](https://github.com/ucsd-ml-arts/generative-text-zizhen/blob/master/pic.jpg)
 ## Model/Data
 
 
