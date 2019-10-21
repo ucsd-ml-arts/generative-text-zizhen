@@ -13,7 +13,7 @@ Zizhen, ziw142@ucsd.edu
 - The second varible I changed is number of epochs. I tried 2, 30 , 100. I found the loss is not constantly decrease when the epochs increases, I recommend choose the epoch number when the loss is least. I used 20 epochs because I found the least loss at 20 epochs is about 0.7 but at 100 epochs, the loss went back to 1.3.
 - The third varible I changed is temperature. I read some papers which how temperature affects RNN model. The explaination is for high temperatures, all actions have nearly the same probability and the lower the temperature, the more expected rewards affect the probability; for a low temperature, the probability of the action with the highest expected reward tends to 1. So I tried different temperature, when I decrease the tempreture to 0.3, the result showed a readable story. And the least loss at 20 peochs decrease 0.1 from the high temperature so I think it was useful.
 - The last things I changed sequence length, I found the loss decreased again. When I increase the number epochs, I found 20 is not best number of epochs. The best number is about 170 when I did 200 epochs which means,  the sequence length will make loss decreasing more stable to show the accuracy increase.![](https://github.com/ucsd-ml-arts/generative-text-zizhen/blob/master/1571674721(1).jpg)
-- Finally, my varibles setting is :Epoch number is 20. Sequence legth is 200. Temperature is 0.3. Number of characters to generate is 10000.
+- Finally, my varibles setting is :Epoch number is 20 and 200. Sequence legth is 200. Temperature is 0.3. Number of characters to generate is 10000.
 
 ## Model/Data
 
@@ -32,7 +32,7 @@ Zizhen, ziw142@ucsd.edu
 - [result2.txt](https://github.com/ucsd-ml-arts/generative-text-zizhen/blob/master/result2.txt)
 
 - The output have readable sentences, and it also have a lot of setting and scenario such as specific talking to show the narrative style. I think that was fit my goal to show a different vision for chinese fiction.
-- Epoch number is 20.
+- Epoch number is 20 and 200.
 - Sequence legth is 200.
 - Temperature is 0.3.
 - Number of characters to generate is 10000.
