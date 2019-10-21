@@ -14,11 +14,16 @@ This project I will work on one type of chinese fantasy novel such as swordsman 
 
 
 - Both my training code and the generation code are inside the [Text_Generation_RNN.ipynb](https://github.com/ucsd-ml-arts/generative-text-zizhen/blob/master/Text_Generation_RNN.ipynb).
-- My website scrape code is inside the Webscraper.ipynb
+- My website scrape code is inside the [Webscraper.ipynb](https://github.com/ucsd-ml-arts/generative-text-zizhen/blob/master/Webscraper.ipynb).
 
 ## Results
 
-- Documentation of your generative text in an effective form. A file with your generated text (.pdf, .doc, .txt). 
+- [results.txt](https://github.com/ucsd-ml-arts/generative-text-zizhen/blob/master/result.txt)
+
+The output have readable sentences, and it also have a lot of setting and scenario such as specific talking to show the narrative style. I think that was fit my goal to show a different vision for chinese fiction.
+I used epoch number is 20.
+sequence legth is 200.
+And tempreture is 0.3.
 
 ## Technical Notes
 
