@@ -21,15 +21,17 @@ This project I will work on one type of chinese fantasy novel such as swordsman 
 
 - [results.txt](https://github.com/ucsd-ml-arts/generative-text-zizhen/blob/master/result.txt)
 
-The output have readable sentences, and it also have a lot of setting and scenario such as specific talking to show the narrative style. I think that was fit my goal to show a different vision for chinese fiction.
-I used epoch number is 20.
-sequence legth is 200.
-And tempreture is 0.3.
+- The output have readable sentences, and it also have a lot of setting and scenario such as specific talking to show the narrative style. I think that was fit my goal to show a different vision for chinese fiction.
+- Epoch number is 20.
+- Sequence legth is 200.
+- Tempreture is 0.3.
+- Number of characters to generate is 10000.
 
 ## Technical Notes
 
 
 - Since the novel is very large book so when I train it, the running time is much longer. If you want to decrease the running time, you could choose part of text file, but the accuracy may decrease. And also, the loss is not constantly decrease when the epochs increases, I recommend choose the epoch number when the loss is least.
+- I also choose the number of character to generate is 10000 since this is fiction. I want more words could show the whole narratvie style.
 - The code requires TensorFlow, NumPy and IPython libraries. I also recommended to run the code on a platform/computer that has sufficient GPU power since the training phase occupy much computing power.
 
 ## Reference
