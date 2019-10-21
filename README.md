@@ -13,7 +13,7 @@ This project I will work on one type of chinese fantasy novel such as swordsman 
 ## Code
 
 
-- Both my training code and the generation code are inside the Text_Generation_RNN.ipynb.
+- Both my training code and the generation code are inside the [Text_Generation_RNN.ipynb](https://github.com/ucsd-ml-arts/generative-text-zizhen/blob/master/Text_Generation_RNN.ipynb).
 - My website scrape code is inside the Webscraper.ipynb
 
 ## Results
