@@ -4,7 +4,7 @@ Zizhen, ziw142@ucsd.edu
 
 ## Abstract
 
-- This project I will work on one type of chinese fantasy novel such as swordsman stories. A lot of American people like Asian novel or fiction because these novels are different from American novels. My learning data is from a website which some volunteers transform the novel to English version. I want our module could learn some specific seeting or scenario and generate some chinese fantsy novel. My tranning data is a book called stellar-transformations which is very popular chinese fantasy novel in America. I plan to use RNN model to generate the text. My goal is the generating text would keep the same interesting narrative style.
+- This project I will work on one type of chinese fantasy novel such as swordsman stories. A lot of American people like Asian novel or fiction because these novels are different from American novels. My learning data is from a website which some volunteers transform the novel to English version. I want our module could learn some specific seting or scenario and generate some chinese fantsy novel. My tranning data is a book called stellar-transformations which is very popular chinese fantasy novel in America. I plan to use RNN model to generate the text. My goal is the generating text would keep the same interesting narrative style.
 ![](https://github.com/ucsd-ml-arts/generative-text-zizhen/blob/master/pic.jpg)
 - I started to use website scraped code to scrape the book from websites since the website does not provide download work. However, the website seperate each chapter to one url, so I need to collect them together through the for loop.
 - Then I used RNN training model to train my novel. The varibles is Epoch number:3; Sequence legth is 100; Tempreture is 1; Number of characters to generate is 1000. The result is bad which means it can not form any readable word. Firstly, I wanted to increase the accuracy so I tried to increase epochs. But even I tried 100 epochs and spent a lot time due to large file, the result is still bad.
@@ -36,6 +36,7 @@ Zizhen, ziw142@ucsd.edu
 - Sequence legth is 200.
 - Temperature is 0.3.
 - Number of characters to generate is 10000.
+- The 200 epochs have more accuracy. The result of 20 epochs showed many repeated sentences, and it a little bit disorder with number and words, but the result of 200 epochs showed better.
 
 ## Technical Notes
 
