@@ -4,7 +4,7 @@ Zizhen, ziw142@ucsd.edu
 
 ## Abstract
 
-- This project I will work on one type of chinese fantasy novel such as swordsman stories. A lot of American people like Asian novel or fiction because these novels are different from American novels. My learning data is from a website which some volunteers transform the novel to English version. I want our module could learn some specific seting or scenario and generate some chinese fantsy novel. My tranning data is a book called stellar-transformations which is very popular chinese fantasy novel in America. I plan to use RNN model to generate the text. My goal is the generating text would keep the same interesting narrative style.
+- This project I will work on one type of chinese fantasy novel such as swordsman stories. A lot of American people like Asian novel or fiction because these novels are different from American novels. My learning data is from a website which some volunteers transform the novel to English version. I want our module could learn some specific seting or scenario and generate some chinese fantsy novel. My tranning data is a book called Stellar Transformations which is very popular chinese fantasy novel in America. I plan to use RNN model to generate the text. My goal is the generating text would keep the same interesting narrative style.
 ![](https://github.com/ucsd-ml-arts/generative-text-zizhen/blob/master/pic.jpg)
 - I started to use website scraped code to scrape the book from websites since the website does not provide download work. However, the website seperate each chapter to one url, so I need to collect them together through the for loop.
 - Then I used RNN training model to train my novel. The varibles is Epoch number:3; Sequence legth is 100; Tempreture is 1; Number of characters to generate is 1000. The result is bad which means it can not form any readable word. Firstly, I wanted to increase the accuracy so I tried to increase epochs. But even I tried 100 epochs and spent a lot time due to large file, the result is still bad.
@@ -20,6 +20,10 @@ Zizhen, ziw142@ucsd.edu
 
 - trained models:RNN and website scraper
 - training data: stellar-transformations :https://www.wuxiaworld.com/novel/stellar-transformations
+- 
+Synopsis:
+
+In a galaxy far away, there is a kid without innate inability to practice internal techniques. So, in order to gain the respect of his father, he resolutely chooses to follow the more difficult and painful path of practicing external techniques. As the years go by, he grows up, but what really changes his life is a mysterious meteoric crystal stone -- the Meteoric Tear. This stone fuses with the young man's body unnoticed, and he seems to undergo drastic transformations as a result. After that, everything is changed. Eventually his father knows that the son for whom he hasn't really shown a lot of consideration possesses astonishing abilities. And there's a lot more to come.
 ## Code
 
 
@@ -51,4 +55,5 @@ Zizhen, ziw142@ucsd.edu
 - Papers
   - the fundamental concepts underlying RNNs : https://www.oreilly.com/library/view/neural-networks-and/9781492037354/ch04.html
   - Variable importance in RNN or LSTM: https://stats.stackexchange.com/questions/191855/variable-importance-in-rnn-or-lstm
+  - Steller Transformation Wiki! : https://stellar-transformations.fandom.com/wiki/Stellar_Transformations_Wikia
 
